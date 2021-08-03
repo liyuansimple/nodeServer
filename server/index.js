@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-07-22 16:05:55
- * @LastEditTime: 2021-08-02 09:44:54
+ * @LastEditTime: 2021-08-02 16:51:56
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \SCRM-Admin-Webd:\work\project\loveSearch\server\index.js
@@ -25,5 +25,5 @@ app.use(middleware)
 app.use('/admin', admin)
 // 监听8888 
 app.listen(8888, function () {
-  console.log('===== node 服务器已开启 ====')
+  console.log('===== node 服务器已开启 运行在 http://localhost:8888/====')
 })
